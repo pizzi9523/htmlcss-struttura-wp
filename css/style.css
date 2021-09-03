@@ -11,16 +11,30 @@
   clear: both;
 }
 
+/* Debug  */
+.debug .site_header{
+  height: 100px;
+}
+.debug .primary{
+  height: 450px;
+}
+.debug .secondary_header{
+  height: 50px;
+}
+.debug .sidebar, .content{
+  height: 650px;
+}
+.debug .site_footer{
+  height: 60px;
+}
 
 /* Header  */
 .site_header{
-  height: 100px;
   background-color:#E579E6 ;
 }
 
 /* Main  */
 .primary{
-  height: 450px;
   background-color: #E1D67A ;
   margin: 20px 0;
 }
@@ -29,13 +43,11 @@
   background-color: #0086FF;
 }
 .secondary_header{
-  height: 50px;
   background-color: #ABCFE7;
 }
 
 .sidebar, .content{
   float: left;
-  height: 650px;
   background-color: #ABCFE7 ;
   margin: 20px 0;
 }
@@ -51,7 +63,6 @@
 
 /* Footer  */
 .site_footer{
-  height: 60px;
   background-color: #8801FE ;
   margin-top: 10px;
 }
