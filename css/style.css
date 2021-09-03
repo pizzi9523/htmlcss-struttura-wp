@@ -1,3 +1,4 @@
+/* Common */
 *{
   box-sizing: border-box;
   margin: 0;
@@ -11,19 +12,22 @@
 }
 
 
-
+/* Header  */
 .site_header{
-  height: 80px;
+  height: 100px;
   background-color:#E579E6 ;
 }
 
-
+/* Main  */
 .primary{
-  height: 400px;
+  height: 450px;
   background-color: #E1D67A ;
   margin: 20px 0;
 }
 
+.secondary{
+  background-color: #0086FF;
+}
 .secondary_header{
   height: 50px;
   background-color: #ABCFE7;
@@ -31,7 +35,7 @@
 
 .sidebar, .content{
   float: left;
-  height: 600px;
+  height: 650px;
   background-color: #ABCFE7 ;
   margin: 20px 0;
 }
@@ -43,4 +47,11 @@
 .content{
   width: 66%;
   margin: 20px 1%;
+}
+
+/* Footer  */
+.site_footer{
+  height: 60px;
+  background-color: #8801FE ;
+  margin-top: 10px;
 }
