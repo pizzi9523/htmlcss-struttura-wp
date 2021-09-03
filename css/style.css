@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 
 .site_header{
@@ -16,4 +22,25 @@
   height: 400px;
   background-color: #E1D67A ;
   margin: 20px 0;
+}
+
+.secondary_header{
+  height: 50px;
+  background-color: #ABCFE7;
+}
+
+.sidebar, .content{
+  float: left;
+  height: 600px;
+  background-color: #ABCFE7 ;
+  margin: 20px 0;
+}
+
+.sidebar{
+  width: 16%;
+}
+
+.content{
+  width: 66%;
+  margin: 20px 1%;
 }
